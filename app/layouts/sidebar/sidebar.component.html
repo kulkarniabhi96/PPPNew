@@ -1,0 +1,26 @@
+<aside id="sidebar" class="sidebar">
+    <ul class="sidebar-nav" id="sidebar-nav">
+       <li class="nav-item"> <a class="nav-link " routerLink="/dashboard"> <i class="bi bi-grid"></i> <span>Dashboard</span> </a></li>
+       <li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#components-master" data-bs-toggle="collapse" href="#"> <i class="bi bi-journal-text"></i><span>Master Page</span><i class="bi bi-chevron-down ms-auto"></i> </a>
+        <ul id="components-master" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+           <li> <a routerLink="/gotra-setup"> <i class="bi bi-circle"></i><span>Gotra Setup</span> </a></li>
+           <li> <a routerLink="/devta-setup"> <i class="bi bi-circle"></i><span>Upasak Devta Setup</span> </a></li> 
+        </ul>
+     </li>
+       <li class="nav-item">
+         <a class="nav-link collapsed" data-bs-target="#components-register" data-bs-toggle="collapse" href="#"> <i class="bi bi-journal-text"></i><span>Register</span><i class="bi bi-chevron-down ms-auto"></i> </a>
+         <ul id="components-register" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+            <li> <a routerLink="/register"> <i class="bi bi-circle"></i><span>Register</span> </a></li>
+            <li> <a routerLink="/add-family"> <i class="bi bi-circle"></i><span>Add Family Members</span> </a></li> 
+         </ul>
+      </li>
+      <li class="nav-item">
+         <a class="nav-link collapsed" data-bs-target="#components-darshan" data-bs-toggle="collapse" href="#"> <i class="bi bi-journal-text"></i><span>Darshan</span><i class="bi bi-chevron-down ms-auto"></i> </a>
+         <ul id="components-darshan" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+            <li> <a routerLink="/create-darshan"> <i class="bi bi-circle"></i><span>Darshan</span> </a></li>
+         </ul>
+      </li>
+      
+    </ul>
+ </aside>

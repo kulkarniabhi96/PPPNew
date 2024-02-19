@@ -1,0 +1,278 @@
+<main id="main" class="main">
+    <div class="pagetitle">
+       <h1>Register</h1>
+       <nav>
+          <ol class="breadcrumb">
+             <li class="breadcrumb-item"><a routerLink="/">Home</a></li>
+             <li class="breadcrumb-item">Register</li>
+             <li class="breadcrumb-item active">Upasak</li>
+          </ol>
+       </nav>
+    </div>
+    <section class="section">
+      <div class="row">
+         
+         <div class="col-lg-12">
+            <div class="card">
+               <div class="card-body">
+                  <h5 class="card-title">Register Upasak</h5>
+                  <ul class="nav nav-tabs d-flex" id="myTabjustified" role="tablist">
+                     <li class="nav-item flex-fill" role="presentation"> <button class="nav-link w-100 active" id="home-tab" data-bs-toggle="tab" data-bs-target="#personal-justified" type="button" role="tab" aria-controls="personal" aria-selected="true">Personal</button></li>
+                     <li class="nav-item flex-fill" role="presentation"> <button class="nav-link w-100" id="address-tab" data-bs-toggle="tab" data-bs-target="#address-justified" type="button" role="tab" aria-controls="address" aria-selected="false">Address</button></li>
+                     <li class="nav-item flex-fill" role="presentation"> <button class="nav-link w-100" id="profession-tab" data-bs-toggle="tab" data-bs-target="#profession-justified" type="button" role="tab" aria-controls="profession" aria-selected="false">Profession</button></li>
+                     <li class="nav-item flex-fill" role="presentation"> <button class="nav-link w-100" id="other-tab" data-bs-toggle="tab" data-bs-target="#other-justified" type="button" role="tab" aria-controls="other" aria-selected="false">Other</button></li>
+                  </ul>
+                  <div class="tab-content pt-2" id="myTabjustifiedContent">
+                     <div class="tab-pane fade show active" id="personal-justified" role="tabpanel" aria-labelledby="home-tab"> 
+                        <section class="section">
+                           <div class="row">
+                              <div class="col-lg-12">
+                                    <div class="card-body">
+                                       <h5 class="card-title">Personal Details</h5>
+                                       <form class="row g-3">
+                                         <div class="col-md-2"><label for="inputName5" class="form-label">Upasak Id</label> <input type="text" class="form-control" name="EmpId"></div>
+                                         <div class="col-md-10"></div>
+                                         
+                                         <div class="col-md-4"><label for="inputName5" class="form-label">First Name</label> <input type="text" class="form-control"  name="FirstName"></div>
+                                         <div class="col-md-4"><label for="inputName5" class="form-label">Middle Name</label> <input type="text" class="form-control"name="MiddleName"></div>
+                                         <div class="col-md-4"><label for="inputName5" class="form-label">Last Name</label> <input type="text" class="form-control" name="LastName"></div>
+                                  
+                                         <div class="col-md-4"><label for="inputName5" class="form-label">Mobile (WhatsApp)</label> <input type="text" class="form-control"  name="mobile1"></div>
+                                         <div class="col-md-4"><label for="inputName5" class="form-label">Mobile</label> <input type="text" class="form-control"  name="mobile2"></div>
+                                         <fieldset class="col-md-4">
+                                            <legend class="col-form-label col-sm-4 pt-0">Gender</legend>
+                                            <div class="col-sm-10">
+                                               <div class="form-check"> <input class="form-check-input" type="radio" value="M" > <label class="form-check-label" for="gridRadios1"> Male </label></div>
+                                               <div class="form-check"> <input class="form-check-input" type="radio" value="F" > <label class="form-check-label" for="gridRadios2"> Female </label></div>
+                                            </div>
+                                           </fieldset>
+
+                                         <div class="col-md-4"><label for="inputName5" class="form-label">Email</label> <input type="text" class="form-control"  name="FirstName"></div>
+                                         <div class="col-md-4">
+                                            <label for="inputState" class="form-label">Gotra</label> 
+                                            <select id="inputState" class="form-select">
+                                               <option value="option0" selected>Choose...</option>
+                                               <option value="option1">Gotra 1</option>
+                                               <option value="option2">Gotra 2</option>
+                                               <option value="option3">Gotra 3</option>
+                                            </select>
+                                         </div>
+                                         <div class="col-md-4"><label for="inputName5" class="form-label">DOB</label> <input type="date" class="form-control" name="DOB"></div>
+                                  
+                                         <div class="col-md-4">
+                                            <label for="inputState" class="form-label">Is Upasak</label> 
+                                            <select id="inputState" class="form-select">
+                                               <option value="option0" selected>Choose...</option>
+                                               <option value="option1">Yes</option>
+                                               <option value="option2">No</option>
+                                            </select>
+                                         </div>
+                                         <div class="col-md-4">
+                                            <label for="inputState" class="form-label">Blood Group</label> 
+                                            <select id="inputState" class="form-select">
+                                               <option value="option0" selected>Choose...</option>
+                                               <option value="option1">Group 1</option>
+                                               <option value="option2">Group 2</option>
+                                               <option value="option3">Group 3</option>
+                                            </select>
+                                         </div>
+                                         <div class="col-md-4">
+                                            <label for="inputState" class="form-label">Maritial Status</label> 
+                                            <select id="inputState" class="form-select">
+                                               <option value="option0" selected>Choose...</option>
+                                               <option value="option1">Single</option>
+                                               <option value="option2">Married</option>
+                                            </select>
+                                         </div>
+                                      
+                                         <div class="col-md-4">
+                                            <label for="inputState" class="form-label">Upasak Devta</label> 
+                                            <select id="inputState" class="form-select">
+                                               <option value="option0" selected>Choose...</option>
+                                               <option value="option1">Devta 1</option>
+                                               <option value="option2">Devta 2</option>
+                                            </select>
+                                         </div>
+
+
+                                       <div class="text-center"> <button type="submit" class="btn btn-primary">Submit</button> </div>
+                                       </form>
+                                    </div>
+                              </div>
+                           </div>
+                        </section>   
+                     
+                     </div>
+                     
+                     
+                    
+                     
+                     <div class="tab-pane fade" id="address-justified" role="tabpanel" aria-labelledby="address-tab"> 
+                        <section class="section">
+                           <div class="row">
+                              <div class="col-lg-12">
+                                    <div class="card-body">
+                                       <h5 class="card-title">Address Details</h5>
+                                       
+                                       <form class="row g-3">
+                                        
+                                        <div class="col-md-6"><label for="inputName5" class="form-label">Address Line 1</label> <input type="text" class="form-control"  name="FirstName"></div>
+                                        <div class="col-md-6"><label for="inputName5" class="form-label">Address Line 2</label> <input type="text" class="form-control"name="MiddleName"></div>
+                                        
+                                        <div class="col-md-6"><label for="inputName5" class="form-label">Land Mark</label> <input type="text" class="form-control"  name="FirstName"></div>
+                                        <div class="col-md-2"><label for="inputName5" class="form-label">Pin Code</label> <input type="text" class="form-control"  name="FirstName"></div>
+                                        <div class="col-md-4"></div>
+                                        
+                                        <div class="col-md-4">
+                                           <label for="inputState" class="form-label">Country</label> 
+                                           <select id="inputState" class="form-select">
+                                              <option value="option0" selected>Choose...</option>
+                                              <option value="option1">India</option>
+                                           </select>
+                                        </div>
+                                        <div class="col-md-4">
+                                           <label for="inputState" class="form-label">State</label> 
+                                           <select id="inputState" class="form-select">
+                                              <option value="option0" selected>Choose...</option>
+                                              <option value="option1">Maharashtra</option>
+                                              <option value="option2">Gujarat</option>
+                                           </select>
+                                        </div>
+                                     
+                                        <div class="col-md-4">
+                                           <label for="inputState" class="form-label">City</label> 
+                                           <select id="inputState" class="form-select">
+                                              <option value="option0" selected>Choose...</option>
+                                              <option value="option1">Aurangabad</option>
+                                              <option value="option2">Ahmedabad</option>
+                                           </select>
+                                        </div>
+
+                                        <div class="col-sm-10"><br/>
+                                            <div class="form-check"> <input class="form-check-input" type="checkbox" id="gridCheck1" [checked]="isAddressSameAsContact"> <label class="form-check-label" for="gridCheck1">Address Same As Contact Address </label></div>
+                                         </div>
+
+                                      <div class="text-center"> <button type="submit" class="btn btn-primary">Submit</button> </div>
+                                      </form>
+
+                                    </div>
+                              </div>
+                           </div>
+                        </section>
+                     </div>
+
+                     <div class="tab-pane fade" id="profession-justified" role="tabpanel" aria-labelledby="profession-tab"> 
+                        <section class="section">
+                           <div class="row">
+                              <div class="col-lg-12">
+                                    <div class="card-body">
+                                       <h5 class="card-title">Profession</h5>
+                                       <form class="row g-3">
+                                       
+                                        <div class="col-md-4">
+                                           <label for="inputState" class="form-label">Profession Category</label> 
+                                           <select id="inputState" class="form-select">
+                                              <option value="option0" selected>Choose...</option>
+                                              <option value="option1">cat 1</option>
+                                              <option value="option2">cat 2</option>
+                                              <option value="option3">cat 3</option>
+                                           </select>
+                                        </div>
+                                        <div class="col-md-8"></div>
+                                 
+                                        <div class="col-md-4">
+                                           <label for="inputState" class="form-label">Profession Type</label> 
+                                           <select id="inputState" class="form-select">
+                                              <option value="option0" selected>Choose...</option>
+                                              <option value="option1">type 1</option>
+                                              <option value="option2">type 2</option>
+                                           </select>
+                                        </div>
+                                        <div class="col-md-8"></div>
+                                     
+                                        <div class="col-md-4"><label for="inputName5" class="form-label">Name</label> <input type="text" class="form-control"  name="FirstName"></div>
+
+
+
+                                      <div class="text-center"> <button type="submit" class="btn btn-primary">Submit</button> </div>
+                                      </form>
+                                    </div>
+                              </div>
+                           </div>
+                        </section>
+                     </div>
+                     
+                     <div class="tab-pane fade" id="other-justified" role="tabpanel" aria-labelledby="other-tab"> 
+                        <section class="section">
+                           <div class="row">
+                              <div class="col-lg-12">
+                                    <div class="card-body">
+                                       <h5 class="card-title">Member of Any Organisation</h5>
+                                       <form class="row g-3">
+                                       
+                                        <div class="col-md-4">
+                                           <label for="inputState" class="form-label">Select Organisation</label> 
+                                           <select id="inputState" class="form-select">
+                                              <option value="option0" selected>Choose...</option>
+                                              <option value="option1">org 1</option>
+                                              <option value="option2">org 2</option>
+                                              <option value="option3">org 3</option>
+                                           </select>
+                                        </div>
+                                        <div class="col-md-8"></div>
+                                 
+                                        <div class="col-md-4">
+                                           <label for="inputState" class="form-label">Post Held</label> 
+                                           <select id="inputState" class="form-select">
+                                              <option value="option0" selected>Choose...</option>
+                                              <option value="option1">post 1</option>
+                                              <option value="option2">post 2</option>
+                                           </select>
+                                        </div>
+                                        <div class="col-md-8"></div>
+                                     
+                                        <div class="col-md-4"><label for="inputName5" class="form-label">Location</label> <input type="text" class="form-control"  name="FirstName"></div>
+
+
+
+                                      <div class="text-center"> <button type="submit" class="btn btn-primary">Submit</button> </div>
+                                      </form>
+                                    </div>
+                              </div>
+                           </div>
+                        </section>
+                     </div>
+
+                     <div class="tab-pane fade" id="other-justified" role="tabpanel" aria-labelledby="other-tab"> 
+                        <section class="section">
+                           <div class="row">
+                              <div class="col-lg-12">
+                                    <div class="card-body">
+                                       <h5 class="card-title">Other</h5>
+                                       
+                                    </div>
+                              </div>
+                           </div>
+                        </section>
+                     </div>
+
+                     <div class="tab-pane fade" id="dependents-justified" role="tabpanel" aria-labelledby="dependents-tab"> 
+                        <section class="section">
+                           <div class="row">
+                              <div class="col-lg-12">
+                                    <div class="card-body">
+                                       <h5 class="card-title">Family Details</h5>
+                                      
+                                    </div>
+                              </div>
+                           </div>
+                        </section>
+                     </div>
+                  </div>
+               </div>
+            </div>
+          
+         </div>
+      </div>
+   </section>
+ </main>
